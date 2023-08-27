@@ -1,0 +1,23 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Intro from "../components/Intro.astro";
+import Gallery from "../components/Gallery.astro";
+---
+
+<Layout title="Welcome to Astro Crash Course.">
+  <Intro />
+  <Gallery />
+</Layout>
+
+<style>
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
